@@ -10,7 +10,7 @@ import { NDKSessionLocalStorage, useNDKInit, useNDKSessionMonitor } from "@nostr
 import { useEffect } from "react";
 
 // Define explicit relays or use defaults
-const explicitRelayUrls = ["ws://localhost:3335"];
+const explicitRelayUrls = ["wss://relay.holoboard.space"];
 
 // Setup Dexie cache adapter (Client-side only)
 let cacheAdapter: NDKCacheAdapterDexie | undefined;
